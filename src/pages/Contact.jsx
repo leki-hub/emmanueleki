@@ -93,6 +93,7 @@ const Contact = () => {
                   value={formValues.Name} 
                   onChange={handleInputChange}
                   autoComplete="name"
+                  required
                 />
                 <input
                   type="email"
@@ -101,6 +102,7 @@ const Contact = () => {
                   value={formValues.Email} 
                   onChange={handleInputChange}
                   autoComplete="email"
+                  required
                 />
                 <textarea
                   name="Message"
@@ -108,7 +110,9 @@ const Contact = () => {
                   placeholder="Your Message"
                   value={formValues.Message} 
                   onChange={handleInputChange}
-                ></textarea>
+                 required
+                />
+               
                 <button
                   type="submit"
                   className="btn btn2"
