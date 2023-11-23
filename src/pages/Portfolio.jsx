@@ -1,4 +1,3 @@
-// Portfolio.js
 
 import React from 'react';
 
@@ -40,7 +39,7 @@ const Portfolio = () => {
                 </div>
             </div>
         </div>
-        <a href="#" className="btn">See more</a>
+        <a href="https://github.com/leki-hub" target='_blank' className="btn">See more</a>
     </div>
     </div>
   );
