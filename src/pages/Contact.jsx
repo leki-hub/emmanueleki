@@ -27,7 +27,6 @@ const Contact = () => {
       const response = await fetch(scriptURL, {
         method: 'POST',
         body: new FormData(document.forms['submit-to-google-sheet']),
-        mode: 'no-cors'
       });
 
       if (response.ok) {
@@ -90,16 +89,24 @@ const Contact = () => {
                   type="text"
                   name="Name"
                   placeholder="Your Name required"
+                  value={formValues.Name} 
+                  onChange={handleInputChange}
+                  autoComplete="name"
                 />
                 <input
                   type="email"
                   name="Email"
                   placeholder="Your Email required"
+                  value={formValues.Email} 
+                  onChange={handleInputChange}
+                  autoComplete="email"
                 />
                 <textarea
                   name="Message"
                   rows="6"
                   placeholder="Your Message"
+                  value={formValues.Message} 
+                  onChange={handleInputChange}
                 ></textarea>
                 <button
                   type="submit"
