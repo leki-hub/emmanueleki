@@ -55,28 +55,29 @@ const Contact = () => {
               <h1 className="sub-title">Contact Me</h1>
 
               <div className="contact-info-item">
-                <img src="Images/icons8-email-64.png" alt="email" />
-                <p>lekiemmanuel254@gmail.com</p>
-              </div>
-
-              <div className="contact-info-item">
-                <img src="Images/icons8-contact-50.png" alt="contact" />
-                <p>+254702360897</p>
-              </div>
+              <a href="mailto:lekiemmuel254@gmail.com">
+                          <img src="Images/icons8-email-64.png" alt="email" />
+                              {/* <p>lekiemmuel254@gmail.com</p> */}
+                              </a>
+               </div>
 
               <div className="social-icons">
-                <a href="#">
+              <a href="https://www.linkedin.com/in/leki-emmanuel-8b7540157/" target='_blank'>
+                  <img src="Images/icons8-linkedin-50.png" alt="linkedin" />
+                </a>
+             
+                <a href="https://github.com/leki-hub" target='_blank'>
+                  <img src="Images/icon-github.png" alt="github" />
+                </a>
+                <a href="https://www.facebook.com/leki.lemmanuel" target='_blank'>
                   <img src="Images/icons8-facebook-50.png" alt="facebook" />
                 </a>
+
                 <a href="">
                   <img src="Images/icons8-youtube-50.png" alt="youtube" />
                 </a>
-                <a href="">
-                  <img src="Images/icons8-instagram-50.png" alt="instagram" />
-                </a>
-                <a href="">
-                  <img src="Images/icons8-linkedin-50.png" alt="linkedin" />
-                </a>
+
+
               </div>
               <a href= './images/emmanuel.pdf' download="leki_mmanuel.pdf" className="btn btn2" rel='noopener noreferrer'>
               Download CV
