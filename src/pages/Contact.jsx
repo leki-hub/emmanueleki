@@ -79,7 +79,7 @@ const Contact = () => {
 
 
               </div>
-              <a href= './Images/emmanuel.pdf' download="leki_mmanuel.pdf" className="btn btn2" rel='noopener noreferrer'>
+              <a href= 'Images/Emmanuel.pdf' download="leki_mmanuel.pdf" className="btn btn2" rel='noopener noreferrer'>
               Download CV
                 
               </a>
