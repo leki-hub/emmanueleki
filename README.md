@@ -1,5 +1,5 @@
 # Emmanuel Portfolio
-![Readme](images/readme-image.png)
+![Readme](public/images/readme-image.png)
 
 
 ## Available Scripts
