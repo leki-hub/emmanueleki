@@ -1,6 +1,4 @@
 # Emmanuel Portfolio
-![Portfolio Image](./public/images/readme-image.png)
+![Portfolio Image](public/Images/readme-image.png)
 
-
-## Available Scripts
-
+Portfolio Website: https://leki-hub.github.io/emmanueleki/
