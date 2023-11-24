@@ -8,34 +8,34 @@ const Portfolio = () => {
         <h1 className="sub-title">My Work</h1>
         <div className="worklist">
             <div className="work">
-                <img src="images/work-1.png" alt='media'/>
+                <img src="Images/work-1.png" alt='media'/>
                 <div className="layer">
                     <h3>Law Firm Application</h3>
                     <p>As a freelance website developer, I crafted several  amazing software applications, one being Lesmo Law firm.This application is not only user friendly
                         but also easy to configure with the backend.
                     </p>
-                    <a href="https://leki-hub.github.io/lesmo-lawfirm/" target='_blank'><img src="images/icons8-external-link-24.png" alt="external-link" className="jm" /></a>
+                    <a href="https://leki-hub.github.io/lesmo-lawfirm/" target='_blank'><img src="Images/icons8-external-link-24.png" alt="external-link" className="jm" /></a>
                 </div>
             </div>
             <div className="work">
-                <img src="images/work-2.png" alt='music' />
+                <img src="Images/work-2.png" alt='music' />
                 <div className="layer">
                     <h3>Bookstore Application</h3>
                     <p>The Application enables  individuals have a list of books they like,with ability to add new book, delete and 
                         update the books.
                         Every Client has a different MongoDB url assigned in the backend, with deployment done on Heroku.
                     </p>
-                    <a href="https://github.com/leki-hub/mern-bookstore" target='_blank'><img src="images/icons8-external-link-24.png" alt="external-link" className="jm" /></a>
+                    <a href="https://github.com/leki-hub/mern-bookstore" target='_blank'><img src="Images/icons8-external-link-24.png" alt="external-link" className="jm" /></a>
                 </div>
             </div>
             <div className="work">
-                <img src="images/work-3.png"  alt='shopping'/>
+                <img src="Images/work-3.png"  alt='shopping'/>
                 <div className="layer">
                     <h3>Camping App</h3>
                     <p>Being from Kenya, I prety well understand  the benefits that Tourism has impacted on the Economy.
                        I developed a camping application website template.
                     </p>
-                    <a href="https://camping-app-leki.netlify.app" target='_blank'><img src="images/icons8-external-link-24.png" alt="external-link" className="jm" /></a>
+                    <a href="https://camping-app-leki.netlify.app" target='_blank'><img src="Images/icons8-external-link-24.png" alt="external-link" className="jm" /></a>
                 </div>
             </div>
         </div>
