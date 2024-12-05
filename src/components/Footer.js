@@ -7,7 +7,7 @@ const Footer = () => {
     <div>
       <div className="copyright">
         <p>
-          © 2023 - {currentYear} Leki Emmanuel. <i className="fab fa-heart"></i> All Rights Reserved.
+          ©{currentYear} Leki Emmanuel. <i className="fab fa-heart"></i> All Rights Reserved.
         </p>
       </div>
     </div>
