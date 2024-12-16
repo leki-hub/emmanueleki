@@ -19,7 +19,6 @@ const Header = () => {
         <div className="container">
           <nav>
             <img  src={`${process.env.PUBLIC_URL}/images/logo.png`} className="logo" alt="Logo" />
-
             <ul className={sideMenuVisible ? 'show' : ''} id="sidemenu">
               <li><Link to="/">HOME</Link></li>
               <li><Link to="/about">ABOUT</Link></li>
