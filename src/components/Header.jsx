@@ -18,7 +18,8 @@ const Header = () => {
       <div id="header">
         <div className="container">
           <nav>
-            <img src="Images/logo.png" className="logo" alt="Logo" />
+            <img  src={`${process.env.PUBLIC_URL}/images/logo.png`} className="logo" alt="Logo" />
+
             <ul className={sideMenuVisible ? 'show' : ''} id="sidemenu">
               <li><Link to="/">HOME</Link></li>
               <li><Link to="/about">ABOUT</Link></li>
@@ -26,14 +27,16 @@ const Header = () => {
               <li><Link to="/portfolio">PORTFOLIO</Link></li>
               <li><Link to="/contact">CONTACT</Link></li>
               <img
-                src="Images/icons8-cross-30.png"
+                
+                src={`${process.env.PUBLIC_URL}/Images/icons8-cross-30.png`}
                 alt="cross icon"
                 className="fas"
                 onClick={closeMenu}
               />
             </ul>
             <img
-              src="Images/icons8-menu-30.png"
+               src={`${process.env.PUBLIC_URL}/Images/icons8-menu-30.png`}
+          
               alt="menu icon"
               className="fas"
               onClick={openMenu}
@@ -41,7 +44,7 @@ const Header = () => {
           </nav>
           <div className="header-text">
             <p>Full Stack Developer</p>
-            <h1>
+            <h1 className='nametag'>
               Hi, I'm <span>Leki</span>
               <br /> Emmanuel  From Kenya
             </h1>
