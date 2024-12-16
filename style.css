@@ -63,7 +63,7 @@ nav ul li a:hover::after{
 }
 
 .header-text{
-    margin-top: 20%;
+    margin-top: 15%;
     font-size: 30px;
 
 }
@@ -376,13 +376,15 @@ nav .fas{
 @media only screen and (max-width: 600px) {
     #header{
         background-image: url(Images/phone-background.png);
+        height: 300px;
     }
+
     .header-text{
         margin-top: 100%;
         font-size: 16px;
     }
     .header-text h1{
-        font-size: 30px;
+        font-size: 20px;
 
     }
     nav .fas{
@@ -443,3 +445,35 @@ nav .fas{
     display: block;
 }
     
+@media (max-width: 768px) {
+    .header-text .nametag {
+      font-size: 1.5rem; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header-text .nametag {
+      font-size: 1rem; 
+    }
+  }
+
+
+@media (max-width: 480px) {
+    .header-text {
+        margin-top: 15%;
+      font-size: 1rem; 
+    }
+  }
+
+  @media (max-width: 768px) {
+    .header-text {
+        margin-top: 15%;
+      font-size: 1rem;  
+    }
+  }
+
+  @media (max-width: 768px) {
+    .contact-left h1 {
+      font-size: 1.5rem;
+    }
+  }
