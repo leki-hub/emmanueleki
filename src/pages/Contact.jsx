@@ -56,25 +56,29 @@ const Contact = () => {
 
               <div className="contact-info-item">
               <a href="mailto:lekiemmuel254@gmail.com">
-                          <img src="Images/icons8-email-64.png" alt="email" />
-                              {/* <p>lekiemmuel254@gmail.com</p> */}
+              <img src={`${process.env.PUBLIC_URL}/Images/icons8-email-64.png`} alt="email" />
+                          
+              
                               </a>
                </div>
 
               <div className="social-icons">
               <a href="https://www.linkedin.com/in/leki-emmanuel-8b7540157/" target='_blank'>
-                  <img src="Images/icons8-linkedin-50.png" alt="linkedin" />
+              <img src={`${process.env.PUBLIC_URL}/Images/icons8-linkedin-50.png`} alt="linkedin" />
                 </a>
              
                 <a href="https://github.com/leki-hub" target='_blank'>
-                  <img src="Images/icon-github.png" alt="github" />
+                <img src={`${process.env.PUBLIC_URL}/Images/icon-github.png`} alt="github" />
+                 
                 </a>
                 <a href="https://www.facebook.com/leki.lemmanuel" target='_blank'>
-                  <img src="Images/icons8-facebook-50.png" alt="facebook" />
+                <img src={`${process.env.PUBLIC_URL}/Images/icons8-facebook-50.png`} alt="facebook" />
+             
                 </a>
 
                 <a href="">
-                  <img src="Images/icons8-youtube-50.png" alt="youtube" />
+           
+                  <img src={`${process.env.PUBLIC_URL}/Images/icons8-youtube-50.png`} alt="youtube" />
                 </a>
 
 
