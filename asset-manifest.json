@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/emmanueleki/static/js/main.d1daa92d.js",
+    "main.js": "/emmanueleki/static/js/main.b2bc08de.js",
     "index.html": "/emmanueleki/index.html",
-    "main.d1daa92d.js.map": "/emmanueleki/static/js/main.d1daa92d.js.map"
+    "main.b2bc08de.js.map": "/emmanueleki/static/js/main.b2bc08de.js.map"
   },
   "entrypoints": [
-    "static/js/main.d1daa92d.js"
+    "static/js/main.b2bc08de.js"
   ]
 }
