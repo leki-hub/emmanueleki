@@ -19,7 +19,8 @@ const About = () => {
             <div className="about-col-2">
               <h1 className="sub-title">About Me</h1>
               <p>Hi, my name is Leki Emmanuel  and I am a Full Stack Developer. I have always been fascinated by the power of technology to solve complex problems and make people's lives easier.Over the years I have gained extensive experience in developing web and software application
-                for various platforms,including web,mobile and desktop. <br /><br /> I am Proficient in wide range of programming languages including Python, JavaScript and PHP. I have worked with various frameworks and libraries such as React,Vuejs,Nodejs,ExpressJs,Python, PHP and Laravel.I have experience working with databases such as MongoDB,Firebase,MySQL and PostgreSQL.
+                for various platforms,including web,mobile and desktop. <br /><br /> I am Proficient in wide range of programming languages including Python, JavaScript and PHP. I have worked with various frameworks and libraries such as React,Vuejs,Inertia, Alpine,Nodejs,ExpressJs,Python, PHP and Laravel.I have experience working with databases such as MongoDB,Firebase,MySQL and PostgreSQL.
+                  <br />
                   <br />
                     I am passionate about creating quality software that is both user friendly and robust.I believe in agile development and continuous integration practices  and ensure that the web or the software I develop meets the highest standards of quality and performance.
                     </p>
